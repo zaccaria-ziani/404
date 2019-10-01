@@ -3,15 +3,22 @@ body{
     background-position:center center;
     font-family: 'Noto Sans TC', sans-serif;
     height:100vh;
-
 }
+   
 
 .gif{
-    border-radius: 30px;
-    
+    border-radius: 30px; 
+    width:500px;
+    margin:auto;
+    text-align: center;
+    display: block;
+    margin-left: 0 auto;
 }
 
+
 .text{
+    display: block;
+    margin:0 auto;
     border-style:groove;
 border-radius:30px;
 border-width:10px;
@@ -19,8 +26,8 @@ width: 600px;
 padding-top:10px;
 padding-bottom:10px;
 border: 3px solid #A0A0A0;
-text-align: center;
 background: #C0C0C0;
+text-align: center;
 }
 .text:hover{
     background-color: coral;
@@ -46,7 +53,33 @@ background: #C0C0C0;
     color:white;
     text-shadow: 5px 5px 5px black;
     font-size: 50px;
+    text-align: center;
 }
 .titre:hover{
     background-color: blueviolet;
 }
+
+.div{
+    width:80%;
+    padding:15px;
+    border:10px solid;
+
+}
+
+p{
+    text-align: center;
+    opacity: 1;
+animation-name: fadeInOpacity;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+animation-duration: 2s;
+    
+}
+@keyframes fadeInOpacity
+{
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
