@@ -1,0 +1,35 @@
+body{
+    background-image:url("pfw.jpg");
+    background-position:center center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.gif{
+    border-radius: 30px;
+    
+}
+
+.text{
+    border-style:groove;
+border-radius:30px;
+border-color:#6FAE37;
+border-width:10px;
+}
+.text:hover{
+    background-color:#FFE000;
+}
+
+.logo{
+    width: 70px;
+    height:70px;
+    margin-top:5px;
+    float:right;
+    margin-left:3500%;
+    margin-top:1%;
+
+}
+
+.flag{
+    width:70px;
+    height:70px;
+}
